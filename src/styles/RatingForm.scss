@@ -1,0 +1,57 @@
+.ratingForm {
+  padding: 10px;
+
+  .fieldContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .fieldLabel {
+      font-size: 24px;
+      margin-right: 10px;
+      color: #DC143C;
+    }
+
+    .fieldInput {
+      width: 70%;
+      height: 30px;
+      padding: 5px;
+      outline-color: cornflowerblue;
+    }
+  }
+
+  .choiceContainer {
+    text-align: center;
+    font-size: 28px;
+    color: #DC143C;
+    margin-top: 50px;
+
+    .optionContainer {
+      display: inline-flex;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+      .option {
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .submitBtn {
+    width: 20%;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .disabledSubmitBtn {
+    @extend .submitBtn;
+    background-color: darkgray;
+    cursor: not-allowed;
+  }
+}

@@ -19,8 +19,13 @@
   "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
   "dependencies": {
     "node-sass": "^4.3.0",
+    "prop-types": "^15.6.0",
     "react": "15.6.1",
     "react-dom": "15.4.2",
+    "react-icons": "^2.2.7",
+    "react-ladda": "^5.0.7",
+    "react-loader": "^2.4.2",
+    "react-notification-system": "^0.2.16",
     "sass-loader": "^6.0.2"
   },
   "devDependencies": {

@@ -1,13 +1,17 @@
 import React from 'react';
+import Header from './components/AppHeader';
+import FormView from './components/FormView';
 import '../styles/index.scss';
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>It Works!</h1>
-        <p>This React project just works including <span className="redBg">module</span> local styles.</p>
-        <p>Enjoy!</p>
+        <Header
+					title="Team Rating"
+					subtitle="Please fill this out and let us know how you feel about our work."
+				/>
+        <FormView/>
       </div>
     )
   }
